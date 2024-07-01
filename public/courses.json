@@ -1,0 +1,74 @@
+[
+  {
+    "course_id": "CS101",
+    "img": "https://i.imgur.com/OkEeHwj.png",
+    "course_name": "Introduction to Computer Science",
+    "credit": 3,
+    "price": 200,
+    "course_details": "This course covers the basics of computer science, including algorithms, data structures, and basic programming concepts."
+  },
+  {
+    "course_id": "CS102",
+    "img": "https://photos.google.com/photo/AF1QipOc3JiFgSv-3rxdkLcrn3DmXZSfhn7act_bTRxA",
+    "course_name": "Data Structures and Algorithms",
+    "credit": 4,
+    "price": 300,
+    "course_details": "An in-depth look at data structures and algorithms, focusing on practical applications and problem-solving techniques."
+  },
+  {
+    "course_id": "CS201",
+    "img": "https://photos.google.com/photo/AF1QipOc3JiFgSv-3rxdkLcrn3DmXZSfhn7act_bTRxA",
+    "course_name": "Object-Oriented Programming",
+    "credit": 3,
+    "price": 250,
+    "course_details": "Learn the principles of object-oriented programming and how to apply them using popular programming languages like Java and C++."
+  },
+  {
+    "course_id": "CS202",
+    "img": "https://photos.google.com/photo/AF1QipOc3JiFgSv-3rxdkLcrn3DmXZSfhn7act_bTRxA",
+    "course_name": "Web Development",
+    "credit": 4,
+    "price": 350,
+    "course_details": "A comprehensive course on web development covering HTML, CSS, JavaScript, and modern frameworks like React and Angular."
+  },
+  {
+    "course_id": "CS301",
+    "img": "https://photos.google.com/photo/AF1QipOc3JiFgSv-3rxdkLcrn3DmXZSfhn7act_bTRxA",
+    "course_name": "Database Management Systems",
+    "credit": 3,
+    "price": 275,
+    "course_details": "Explore the concepts of database design, SQL, and database management systems such as MySQL and PostgreSQL."
+  },
+  {
+    "course_id": "CS302",
+    "img": "https://photos.google.com/photo/AF1QipP53NEoQNJAaipijH2tvBTDf-ZdMXaBt5D3uP7Q",
+    "course_name": "Mobile App Development",
+    "credit": 4,
+    "price": 400,
+    "course_details": "Learn how to develop mobile applications for both Android and iOS platforms using languages like Kotlin and Swift."
+  },
+  {
+    "course_id": "CS401",
+    "img": "https://photos.google.com/photo/AF1QipPXvOYJEo1-KiTGGBeXDUIp4qHf-huE7cI5raxj",
+    "course_name": "Artificial Intelligence",
+    "credit": 3,
+    "price": 500,
+    "course_details": "An introduction to artificial intelligence, covering machine learning, neural networks, and AI applications."
+  },
+  {
+    "course_id": "CS402",
+    "img": "https://photos.google.com/photo/AF1QipMWYe-VpXpkgsEs6ghTz5vYGXfWjWJxLw3jHY8G",
+    "course_name": "Cybersecurity",
+    "credit": 3,
+    "price": 450,
+    "course_details": "Study the principles of cybersecurity, including cryptography, network security, and ethical hacking."
+  },
+  {
+    "course_id": "CS403",
+    "img": "https://photos.google.com/photo/AF1QipOLbjJdRPu8zi0kABS_VVabGNh3oUZYGtWjpkrQ",
+    "course_name": "Cloud Computing",
+    "credit": 4,
+    "price": 480,
+    "course_details": "Learn about cloud computing concepts, including cloud infrastructure, services, and deployment models using platforms like AWS and Azure."
+  }
+]
