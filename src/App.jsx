@@ -14,10 +14,11 @@ function App() {
   // console.log(courseNames);
 
   const handleSelectButton = (data) => {
-    const courseNames2 = [...courseNames];
-    console.log(courseNames2, data.course_name);
-    if (data.course_name === courseNames2) {
-      return toast.warn("this course had been added");
+    const isCourseSelected = courseNames.includes(data.course_name);
+
+    // console.log(sameCourse, data.course_name);
+    if (isCourseSelected) {
+      return toast.error("this course had been added");
     }
     const remainCredit = hour - data.credit;
     if (remainCredit <= 0) {
