@@ -10,6 +10,7 @@ function App() {
   const [hour, setHour] = useState(20);
   const [courseNames, setCourseNames] = useState([]);
   const [totalCredit, setTotalCredit] = useState(0);
+  const [price, setPrice] = useState(0);
 
   // console.log(courseNames);
 
@@ -33,6 +34,8 @@ function App() {
     } else {
       setTotalCredit(remainingTotalCredit);
     }
+
+    setPrice(price + data.price);
   };
 
   return (
@@ -51,8 +54,12 @@ function App() {
             ))}
           </div>
           <hr className="mt-[24px]" />
-          <h1 className="mt-[16px] text-[16px] font-medium">
+          <h1 className="mt-[16px] text-[16px] font-medium text-start">
             Total-Credit: {totalCredit}
+          </h1>
+          <hr className="mt-4" />
+          <h1 className="mt-4 text-[16px] font-semibold text-start">
+            Total-Price : {price} <span>USD</span>
           </h1>
         </div>
       </div>
