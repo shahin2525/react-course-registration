@@ -1,9 +1,9 @@
 import { IoBookOutline } from "react-icons/io5";
 //  TfiMoney,
-import { FaBeer } from "react-icons/fa";
+import PropTypes from "prop-types";
 import { TfiMoney } from "react-icons/tfi";
-const Course = ({ course }) => {
-  console.log(course);
+const Course = ({ course, handleSelectButton }) => {
+  // console.log(course);
   const { course_name, course_details, credit, img, price } = course;
   return (
     <div className="w-[312px] mb-[24px]">
@@ -36,13 +36,21 @@ const Course = ({ course }) => {
         </div>
       </div>
 
-      <div className="w-[280px] h-[40px] mt-[24px] mb-[16px] flex justify-center">
-        <button className="bg-[#2F80ED] py-[9px] px-[112px] text-[18px] font-semibold rounded">
+      <div className="w-[280px] h-[40px] mt-[24px] mb-[16px] flex justify-center items-center">
+        <button
+          onClick={() => handleSelectButton(course)}
+          className="bg-[#2F80ED] py-[9px] px-[112px] text-[18px] font-semibold rounded"
+        >
           Select
         </button>
       </div>
     </div>
   );
+};
+
+Course.propTypes = {
+  course: PropTypes.object,
+  handleSelectButton: PropTypes.func,
 };
 
 export default Course;
