@@ -16,7 +16,7 @@ const Courses = () => {
       .then((data) => setCourses(data));
   }, []);
   return (
-    <div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-[24px] ">
       {courses.map((course) => (
         <Course key={course.course_id} course={course}></Course>
       ))}

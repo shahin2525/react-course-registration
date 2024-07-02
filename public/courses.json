@@ -9,7 +9,7 @@
   },
   {
     "course_id": "CS102",
-    "img": "https://photos.google.com/photo/AF1QipOc3JiFgSv-3rxdkLcrn3DmXZSfhn7act_bTRxA",
+    "img": "https://i.imgur.com/XVB0iNW.png",
     "course_name": "Data Structures and Algorithms",
     "credit": 4,
     "price": 300,
@@ -17,7 +17,7 @@
   },
   {
     "course_id": "CS201",
-    "img": "https://photos.google.com/photo/AF1QipOc3JiFgSv-3rxdkLcrn3DmXZSfhn7act_bTRxA",
+    "img": "https://i.imgur.com/Age9Qkp.png",
     "course_name": "Object-Oriented Programming",
     "credit": 3,
     "price": 250,
@@ -25,7 +25,7 @@
   },
   {
     "course_id": "CS202",
-    "img": "https://photos.google.com/photo/AF1QipOc3JiFgSv-3rxdkLcrn3DmXZSfhn7act_bTRxA",
+    "img": "https://i.imgur.com/pG83Thl.png",
     "course_name": "Web Development",
     "credit": 4,
     "price": 350,
@@ -33,7 +33,7 @@
   },
   {
     "course_id": "CS301",
-    "img": "https://photos.google.com/photo/AF1QipOc3JiFgSv-3rxdkLcrn3DmXZSfhn7act_bTRxA",
+    "img": "https://i.imgur.com/njnrevd.png",
     "course_name": "Database Management Systems",
     "credit": 3,
     "price": 275,
@@ -41,7 +41,7 @@
   },
   {
     "course_id": "CS302",
-    "img": "https://photos.google.com/photo/AF1QipP53NEoQNJAaipijH2tvBTDf-ZdMXaBt5D3uP7Q",
+    "img": "https://i.imgur.com/8SHUecr.png",
     "course_name": "Mobile App Development",
     "credit": 4,
     "price": 400,
@@ -49,7 +49,7 @@
   },
   {
     "course_id": "CS401",
-    "img": "https://photos.google.com/photo/AF1QipPXvOYJEo1-KiTGGBeXDUIp4qHf-huE7cI5raxj",
+    "img": "https://i.imgur.com/VSFyumv.png",
     "course_name": "Artificial Intelligence",
     "credit": 3,
     "price": 500,
@@ -57,7 +57,7 @@
   },
   {
     "course_id": "CS402",
-    "img": "https://photos.google.com/photo/AF1QipMWYe-VpXpkgsEs6ghTz5vYGXfWjWJxLw3jHY8G",
+    "img": "https://i.imgur.com/wEFh5QT.png",
     "course_name": "Cybersecurity",
     "credit": 3,
     "price": 450,
@@ -65,7 +65,7 @@
   },
   {
     "course_id": "CS403",
-    "img": "https://photos.google.com/photo/AF1QipOLbjJdRPu8zi0kABS_VVabGNh3oUZYGtWjpkrQ",
+    "img": "https://i.imgur.com/ig5QlqO.png",
     "course_name": "Cloud Computing",
     "credit": 4,
     "price": 480,
